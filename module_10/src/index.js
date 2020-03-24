@@ -1,6 +1,6 @@
-import menuItems from '../json/menu.json';
-import menuItemTmpl from '../tmpl/item-tmpl.hbs';
-import '../css/styles.css';
+import menuItems from '../src/json/menu.json';
+import menuItemTmpl from '../src/tmpl/item-tmpl.hbs';
+import './styles.css';
 
 const menuGallery = document.querySelector('.js-menu');
 
